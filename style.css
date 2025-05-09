@@ -1,0 +1,27 @@
+#personagens {
+    font-size: 30px;
+    background-color: yellow;
+    font-style: oblique;
+}
+
+ #personagens li::marker  { 
+color: purple;
+font-size: 60px;
+}
+
+#mais_forte {
+    font-size: 30px;
+    background-color: green;
+    font-style: italic;
+}
+
+#mais_forte li::marker {
+    color: goldenrod;
+    font-size: 50px;
+    }
+
+ *{
+ margin: 20px;
+ padding: 0;
+box-sizing: border-box;
+    }
